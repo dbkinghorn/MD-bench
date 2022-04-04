@@ -1,0 +1,58 @@
+{
+    "meta": {
+        "benchmark_name": "PugetBench-Numeric NAMD2-CPU",
+        "benchmark_version_major": "0",
+        "benchmark_version_minor": "1.0",
+        "upload_id": ""
+    },
+    "specs": {
+        "os": "Ubuntu 20.04.4 LTS",
+        "cpu": "Intel(R) Xeon(R) W-2295 CPU @ 3.00GHz",
+        "mb": "ASUSTeK COMPUTER INC. WS C422 PRO_SE (Rev 1.xx)",
+        "ram": "125 GB (Non-Reserved)",
+        "gpu": "NVIDIA Corporation TU102 [GeForce RTX 2080 Ti] (rev a1)",
+        "system": "ASUSTeK COMPUTER INC. Rev 1.xx",
+        "engine": "N/A"
+    },
+    "results": [
+        {
+            "name": "f1atpase",
+            "num_processes": 36,
+            "gpu_list": 0,
+            "commandline": "namd/NAMD_2.14_Linux-x86_64-multicore-CUDA/namd2 +p36 +setcpuaffinity +idlepoll +isomalloc_sync +devices 0 namd/f1atpase/f1atpase.namd",
+            "min_time": 48.1934,
+            "max_time": 48.1934,
+            "median_time": 48.1934,
+            "standard_deviation": 0,
+            "memory_usage": 1001.535,
+            "performance": 0.11022,
+            "performance_unit": "days/ns"
+        },
+        {
+            "name": "apoa1",
+            "num_processes": 36,
+            "gpu_list": 0,
+            "commandline": "namd/NAMD_2.14_Linux-x86_64-multicore-CUDA/namd2 +p36 +setcpuaffinity +idlepoll +isomalloc_sync +devices 0 namd/apoa1/apoa1.namd",
+            "min_time": 25.6839,
+            "max_time": 25.6839,
+            "median_time": 25.6839,
+            "standard_deviation": 0,
+            "memory_usage": 581.566,
+            "performance": 0.03353,
+            "performance_unit": "days/ns"
+        },
+        {
+            "name": "stmv",
+            "num_processes": 36,
+            "gpu_list": 0,
+            "commandline": "namd/NAMD_2.14_Linux-x86_64-multicore-CUDA/namd2 +p36 +setcpuaffinity +idlepoll +isomalloc_sync +devices 0 namd/stmv/stmv.namd",
+            "min_time": 72.4169,
+            "max_time": 72.4169,
+            "median_time": 72.4169,
+            "standard_deviation": 0,
+            "memory_usage": 2335.08,
+            "performance": 0.40249,
+            "performance_unit": "days/ns"
+        }
+    ]
+}
