@@ -1,0 +1,2 @@
+gmx mdrun -nb cpu -s /mnt/benchMEM.tpr -nsteps 10000
+gmx mdrun -s /mnt/benchMEM.tpr -nsteps 10000

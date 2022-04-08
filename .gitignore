@@ -11,6 +11,11 @@ namd/
 *.json
 testing/
 *.run
+*.log
+*.zip
+*.tpr
+*.gro
+*.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

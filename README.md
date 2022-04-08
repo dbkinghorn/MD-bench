@@ -12,3 +12,9 @@ A hardware benchmark suite for Molecular Dynamics
 - LAMMPS-GPU
 
 ## References
+
+GROMACS:
+
+- [https://www.mpinat.mpg.de/632182/bench.pdf](https://www.mpinat.mpg.de/632182/bench.pdf)
+- [https://www.mpinat.mpg.de/grubmueller/bench](https://www.mpinat.mpg.de/grubmueller/bench)
+- [https://ftp.gromacs.org/pub/benchmarks/](https://ftp.gromacs.org/pub/benchmarks/)
